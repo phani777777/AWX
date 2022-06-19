@@ -1,0 +1,7 @@
+---
+-host: all
+ tasks:
+ -name: Install Git
+  apt:
+    name: git
+    state: present
